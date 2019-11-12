@@ -49,7 +49,7 @@ public class FracCalc {
     	operand3 = secondNum (input , charPlacement); // used to store value for 1st test
     	String operand3Check2 = seperateNumber(operand3);// stores value for 2nd test
     	
-        return operand3 ; // 1st test : operand 3 ; 2nd test : operand3Check2 ; 
+        return operand3Check2 ; // 1st test : operand 3 ; 2nd test : operand3Check2 ; 
     }
 
     // TODO: Fill in the space below with any helper methods that you think you will need
