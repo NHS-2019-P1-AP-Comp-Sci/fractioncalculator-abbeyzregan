@@ -15,6 +15,7 @@ public class FracCalc {
     	while (stop == false){ // repeats the calculator when quit isn't entered.
 	    	String input = userInput.nextLine(); // user input
 	    	input = input.toUpperCase();
+	    	// tests to see if quit is entered by checking the individual charachters of the answer
 	    	if ( input.charAt(0) == 'Q' && input.charAt(1) == 'U' && input.charAt(2) == 'I' &&
 	    			input.charAt(3) == 'T') { //tests to see if quit is entered
 	    		stop = true ; 
